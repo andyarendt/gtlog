@@ -1,0 +1,102 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ececec;
+    color: black;
+}
+.wrapper {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    background-color: white;
+    border-radius: 3px;
+}
+h1 {
+    display: block;
+    margin: 0px 0px 10px;
+    padding: 12px;
+    background-color: #002f87;
+    color: white;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+}
+form {
+    padding: 20px;
+}
+input[type="file"] {
+    margin-top: 3px;
+}
+input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: .2em auto .8em auto;
+}
+label {
+    display: block;
+    font-weight: 600;
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+legend {
+    font-weight: 600;
+}
+input[type="date"], input[type="text"], select, textarea {
+    width: 12em;
+    padding: 3px;
+    border: 1px solid #002f87;
+}
+input[type="radio"] {
+    opacity: 0;
+}
+input[type="radio"] + label {
+    display: inline;
+    font-weight: 400;
+    background: url(images/radioem.png) left center no-repeat;
+    background-size: 1.3em 1.3em; 
+    padding-left: 1.5em;
+    margin-left: -1.3em;
+}
+input[type="radio"]:checked + label {
+    background: url(images/radiofill.png) left center no-repeat;
+    background-size: 1.3em 1.3em; 
+    padding-left: 1.5em;        
+    margin-left: -1.3em;
+}
+input[type="radio"]:focus + label {
+    border: 2px solid blue;
+}
+textarea {
+    width: 100%;
+    height: 10em;   
+    padding: 3px;
+}
+input[type="submit"] {
+    background-color: #002f87;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px 20px 25px;
+    padding: .8em 3em;
+}
+input[type="submit"]:hover {
+    background-color: #013aa4;
+    border: none;
+}
+input[type="submit"]:active {
+    background-color: #012a77;
+}
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+    }
+}
