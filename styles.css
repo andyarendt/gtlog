@@ -47,6 +47,7 @@ fieldset {
 }
 legend {
     font-weight: 600;
+    margin-left: -.1em;
 }
 input[type="date"], input[type="text"], select, textarea {
     width: 12em;
@@ -57,18 +58,18 @@ input[type="radio"] {
     opacity: 0;
 }
 input[type="radio"] + label {
-    display: inline;
+    display: inline-block;
     font-weight: 400;
     background: url(images/radioem.png) left center no-repeat;
     background-size: 1.3em 1.3em; 
     padding-left: 1.5em;
-    margin-left: -1.3em;
+    margin-left: -0.9em;
 }
 input[type="radio"]:checked + label {
     background: url(images/radiofill.png) left center no-repeat;
     background-size: 1.3em 1.3em; 
     padding-left: 1.5em;        
-    margin-left: -1.3em;
+    margin-left: -0.9em;
 }
 input[type="radio"]:focus + label {
     border: 2px solid blue;
